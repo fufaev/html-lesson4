@@ -11,7 +11,7 @@
     <header>
         <table width="800" align="center" bgcolor="#b8dc7c" cellpadding="0" cellspacing="0" border="0">
             <tr>
-                <td><img src="../Images/Title.jpg" alt="Удивительная планета — шапка сайта" width="800" height="231">
+                <td><img src="../Images/Title.png" alt="Удивительная планета — шапка сайта" width="800" height="231">
                 </td>
             </tr>
         </table>
@@ -58,10 +58,15 @@
                                     <li><a href="#long-life-plant">Растения-долгожители</a></li>
                                     <li><a href="#tallest-tree">Самые высокие деревья</a></li>
                                 </ul>
-                                <table width="100%" border="1" frame="all" rules="all" cellpadding="10" cellspacing="2">
-                                    <caption id="biggest-plant"><strong>Самые большие цветы</strong></caption>
+                                <table width="100%" border="1" id="biggest-plant" frame="hsides" rules="rows"
+                                    cellpadding="6" cellspacing="0">
+                                    <caption><strong>Самые большие цветы</strong></caption>
                                     <thead>
                                         <tr>
+                                            <!-- Растягиваем ячейку на всю ширину таблицы (3 колонки), чтобы сохранить симметрию сетки -->
+                                            <th colspan="3">Цветы</th>
+                                        </tr>
+                                        <tr bgcolor="#c8e6c9">
                                             <th width="5%" align="left">№</th>
                                             <th width="45%" align="left">Название</th>
                                             <th width="50%" align="left">Примечание</th>
@@ -82,14 +87,15 @@
                                 </table>
                                 <p align="right"><a href="#">ВВЕРХ</a></p>
                                 <br>
-                                <table id="long-life-plant" width="100%" border="1" frame="below" rules="rows"
-                                    cellpadding="10">
+                                <table id="long-life-plant" width="100%" border="1" frame="hsides" rules="rows"
+                                    cellpadding="6" cellspacing="0">
+                                    <caption><strong>Растения-долгожители</strong></caption>
                                     <thead>
                                         <tr>
                                             <!-- Растягиваем ячейку на всю ширину таблицы (3 колонки), чтобы сохранить симметрию сетки -->
-                                            <th colspan="3">Растения-долгожители</th>
+                                            <th colspan="3">Растения</th>
                                         </tr>
-                                        <tr>
+                                        <tr bgcolor="#c8e6c9">
                                             <th width="5%" align="left">№</th>
                                             <th width="45%" align="left">Название</th>
                                             <th width="50%" align="left">Возраст, лет</th>
@@ -125,14 +131,15 @@
                                 </table>
                                 <p align="right"><a href="#">ВВЕРХ</a></p>
                                 <br>
-                                <table id="tallest-tree" width="100%" border="1" frame="below" rules="rows"
-                                    cellpadding="10">
+                                <table id="tallest-tree" width="100%" border="1" frame="hsides" rules="rows"
+                                    cellpadding="6" cellspacing="0">
+                                    <caption><strong>Самые высокие деревья</strong></caption>
                                     <thead>
                                         <tr>
                                             <!-- Растягиваем ячейку на всю ширину таблицы (3 колонки), чтобы сохранить симметрию сетки -->
-                                            <th colspan="3">Самые высокие деревья</th>
+                                            <th colspan="3">Деревья</th>
                                         </tr>
-                                        <tr>
+                                        <tr bgcolor="#c8e6c9">
                                             <th width="5%" align="left">№</th>
                                             <th width="45%" align="left">Название</th>
                                             <th width="50%" align="left">Высота, м</th>
