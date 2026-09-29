@@ -1,0 +1,270 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Удивительная планета — Животные</title>
+</head>
+
+<body id="top" bgcolor="#ffffff" text="#000000" link="#0000ee" vlink="#551a8b">
+
+    <!--
+        ИЗМЕНЕНО: общий каркас полностью перестроен под дизайн-образец.
+        Используется только HTML: фиксированная таблица 800 px, HTML-атрибуты и вложенные таблицы.
+        CSS, style и таблицы стилей не используются.
+    -->
+    <table width="800" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#b8dc7c">
+
+        <!--
+            ИЗМЕНЕНО: для баннера используется оригинальный Title.png на зелёном фоне ячейки.
+            Причина: PNG сохраняет прозрачные участки изображения; зелёный фон просвечивает через них,
+            поэтому между баннером и меню не появляется белая полоса.
+        -->
+        <tr>
+            <td bgcolor="#b8dc7c">
+                <img
+                    src="../Images/Title.png"
+                    alt="Удивительная планета"
+                    width="800"
+                    height="222">
+            </td>
+        </tr>
+
+        <!--
+            ИЗМЕНЕНО: высота баннера установлена 222 px, а строки меню - 28 px.
+            Суммарная высота шапки составляет 250 px.
+            Причина: на дизайн-образце текст навигации имеет заметные
+            и практически симметричные отступы сверху и снизу,
+            при этом основная область начинается почти на прежнем уровне.
+            Ширина области меню остаётся 730 px.
+        -->
+        <tr>
+            <td height="28" valign="middle">
+                <table width="730" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <tr>
+                        <td>
+                            <a href="index.html">Главная</a>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="geography.html">География</a>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        Животные
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="plants.html">Растения</a>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="sources.html">Информационные источники</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <!--
+                    ИЗМЕНЕНО: основная область оставлена шириной 720 px:
+                    120 px голубая колонка + 600 px белая область.
+                    Вертикальные интервалы боковых изображений рассчитаны как
+                    26 + 100 + 20 + 100 + 20 + 100 + 30 = 396 px.
+                    Причина: так расположение изображений точнее совпадает с образцом.
+                -->
+                <table width="720" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <tr>
+                        <td width="120" height="396" valign="top" bgcolor="#acc2d0">
+                            <table width="120" border="0" cellpadding="0" cellspacing="0">
+                                <tr><td height="26">&nbsp;</td></tr>
+                                <tr>
+                                    <td align="center">
+                                        <img src="../Images/mountain.jpg"
+                                             alt="География"
+                                             width="100"
+                                             height="100">
+                                    </td>
+                                </tr>
+                                <tr><td height="20">&nbsp;</td></tr>
+                                <tr>
+                                    <td align="center">
+                                        <img src="../Images/koala.jpg"
+                                             alt="Животные"
+                                             width="100"
+                                             height="100">
+                                    </td>
+                                </tr>
+                                <tr><td height="20">&nbsp;</td></tr>
+                                <tr>
+                                    <td align="center">
+                                        <img src="../Images/flower.jpg"
+                                             alt="Растения"
+                                             width="100"
+                                             height="100">
+                                    </td>
+                                </tr>
+                                <tr><td height="30">&nbsp;</td></tr>
+                            </table>
+                        </td>
+
+                        <td width="600" height="396" valign="top" bgcolor="#ffffff">
+                            <!--
+                                                ИЗМЕНЕНО: содержательные таблицы имеют ширину 96% и выровнены по центру.
+                                                Причина: на дизайн-образце таблицы имеют поля слева и справа внутри белой области.
+                                                Заголовочные строки оставлены белыми через bgcolor="#ffffff".
+                                            -->
+                                            <table width="100%" border="0" cellpadding="10" cellspacing="0">
+                                <tr>
+                                    <td>
+
+                                            <!--
+                                                ИЗМЕНЕНО: заголовок и порядок таблиц приведены к Planeta_text.doc:
+                                                быстрые → медленные → прыгучие.
+                                            -->
+                                            <h2 align="center">Животные-рекордсмены</h2>
+
+                                            <ul>
+                                                <li><a href="#fastest">Самые быстрые животные</a></li>
+                                                <li><a href="#slowest">Самые медленные животные</a></li>
+                                                <li><a href="#jumpers">Самые прыгучие животные</a></li>
+                                            </ul>
+
+                                            <table id="fastest" border="1" cellpadding="4" cellspacing="4" width="96%" align="center">
+                                                <caption><strong>Самые быстрые наземные животные</strong></caption>
+                                                <thead>
+                                                    <tr bgcolor="#ffffff">
+                                                        <th>№</th>
+                                                        <th>Название</th>
+                                                        <th>Результат</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Гепард</td>
+                                                        <td>120 км/ч</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Вилорогая антилопа</td>
+                                                        <td>100 км/ч</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>Антилопа Гну</td>
+                                                        <td>80 км/ч</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Лев</td>
+                                                        <td>80 км/ч</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>Газель Томпсона</td>
+                                                        <td>80 км/ч</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <p align="right"><a href="#top">ВВЕРХ</a></p>
+
+                                            <table id="slowest" border="1" cellpadding="4" cellspacing="4" width="96%" align="center">
+                                                <caption><strong>Самые медленные наземные животные</strong></caption>
+                                                <thead>
+                                                    <tr bgcolor="#ffffff">
+                                                        <th>№</th>
+                                                        <th>Название</th>
+                                                        <th>Результат</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Улитка</td>
+                                                        <td>0,05 км/ч</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Гигантская черепаха</td>
+                                                        <td>0,21 км/ч</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>Ленивец</td>
+                                                        <td>0,24 км/ч</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Мышь</td>
+                                                        <td>12,9 км/ч</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>Цыпленок</td>
+                                                        <td>14,58 км/ч</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <p align="right"><a href="#top">ВВЕРХ</a></p>
+
+                                            <table id="jumpers" border="1" cellpadding="4" cellspacing="4" width="96%" align="center">
+                                                <caption><strong>Самые прыгучие наземные животные</strong></caption>
+                                                <thead>
+                                                    <tr bgcolor="#ffffff">
+                                                        <th>Категория</th>
+                                                        <th>№</th>
+                                                        <th>Название</th>
+                                                        <th>Результат</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <!-- rowspan="2", потому что категория "Прыжок в длину" объединяет 2 строки животных -->
+                                                        <td rowspan="2">Прыжок в длину</td>
+                                                        <td>1</td>
+                                                        <td>Кенгуру</td>
+                                                        <td>13 м</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Амурский тигр</td>
+                                                        <td>10 м</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <!-- rowspan="3", потому что категория "Прыжок в высоту" объединяет 3 строки животных -->
+                                                        <td rowspan="3">Прыжок в высоту</td>
+                                                        <td>1</td>
+                                                        <td>Дельфин</td>
+                                                        <td>6 м</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Пума</td>
+                                                        <td>4 м</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>Рыба Кета</td>
+                                                        <td>3,65 м</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <p align="right"><a href="#top">ВВЕРХ</a></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!--
+            ИЗМЕНЕНО: подвал сделан на зелёном фоне и повторяет пользовательский образец.
+        -->
+        <tr>
+            <td height="46" align="center" valign="middle">
+                © Все права защищены. В.В. Фуфаев, 2023
+                <br>
+                <a href="mailto:bsu.intertech@gmail.com">Написать Администратору сайта</a>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>

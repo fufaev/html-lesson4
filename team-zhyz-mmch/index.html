@@ -1,0 +1,199 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Удивительная планета — Главная</title>
+</head>
+
+<body id="top" bgcolor="#ffffff" text="#000000" link="#0000ee" vlink="#551a8b">
+
+    <!--
+        ИЗМЕНЕНО: общий каркас полностью перестроен под дизайн-образец.
+        Используется только HTML: фиксированная таблица 800 px, HTML-атрибуты и вложенные таблицы.
+        CSS, style и таблицы стилей не используются.
+    -->
+    <table width="800" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#b8dc7c">
+
+        <!--
+            ИЗМЕНЕНО: для баннера используется оригинальный Title.png на зелёном фоне ячейки.
+            Причина: PNG сохраняет прозрачные участки изображения; зелёный фон просвечивает через них,
+            поэтому между баннером и меню не появляется белая полоса.
+        -->
+        <tr>
+            <td bgcolor="#b8dc7c">
+                <img
+                    src="../Images/Title.png"
+                    alt="Удивительная планета"
+                    width="800"
+                    height="222">
+            </td>
+        </tr>
+
+        <!--
+            ИЗМЕНЕНО: высота баннера установлена 222 px, а строки меню - 28 px.
+            Суммарная высота шапки составляет 250 px.
+            Причина: на дизайн-образце текст навигации имеет заметные
+            и практически симметричные отступы сверху и снизу,
+            при этом основная область начинается почти на прежнем уровне.
+            Ширина области меню остаётся 730 px.
+        -->
+        <tr>
+            <td height="28" valign="middle">
+                <table width="730" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <tr>
+                        <td>
+                            Главная
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="geography.html">География</a>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="animals.html">Животные</a>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="plants.html">Растения</a>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="sources.html">Информационные источники</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <!--
+                    ИЗМЕНЕНО: основная область оставлена шириной 720 px:
+                    120 px голубая колонка + 600 px белая область.
+                    Вертикальные интервалы боковых изображений рассчитаны как
+                    26 + 100 + 20 + 100 + 20 + 100 + 30 = 396 px.
+                    Причина: так расположение изображений точнее совпадает с образцом.
+                -->
+                <table width="720" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <tr>
+                        <td width="120" height="396" valign="top" bgcolor="#acc2d0">
+                            <table width="120" border="0" cellpadding="0" cellspacing="0">
+                                <tr><td height="26">&nbsp;</td></tr>
+                                <tr>
+                                    <td align="center">
+                                        <img src="../Images/mountain.jpg"
+                                             alt="География"
+                                             width="100"
+                                             height="100">
+                                    </td>
+                                </tr>
+                                <tr><td height="20">&nbsp;</td></tr>
+                                <tr>
+                                    <td align="center">
+                                        <img src="../Images/koala.jpg"
+                                             alt="Животные"
+                                             width="100"
+                                             height="100">
+                                    </td>
+                                </tr>
+                                <tr><td height="20">&nbsp;</td></tr>
+                                <tr>
+                                    <td align="center">
+                                        <img src="../Images/flower.jpg"
+                                             alt="Растения"
+                                             width="100"
+                                             height="100">
+                                    </td>
+                                </tr>
+                                <tr><td height="30">&nbsp;</td></tr>
+                            </table>
+                        </td>
+
+                        <td width="600" height="396" valign="top" bgcolor="#ffffff">
+                            <!--
+                                                ИЗМЕНЕНО: содержательные таблицы имеют ширину 96% и выровнены по центру.
+                                                Причина: на дизайн-образце таблицы имеют поля слева и справа внутри белой области.
+                                                Заголовочные строки оставлены белыми через bgcolor="#ffffff".
+                                            -->
+                                            <table width="100%" border="0" cellpadding="10" cellspacing="0">
+                                <tr>
+                                    <td>
+
+                                            <!--
+                                                ИЗМЕНЕНО: вместо служебного заголовка "Главная"
+                                                перенесён точный заголовок из Planeta_text.doc.
+                                                Причина: PRO требует перенести весь исходный контент.
+                                            -->
+                                            <h2 align="center">
+                                                Добро пожаловать на сайт,<br>
+                                                посвященный самой удивительной планете во<br>
+                                                Вселенной!
+                                            </h2>
+
+                                            <p>
+                                                Какое животное самое быстрое? На этот простой вопрос ответ знает каждый - это гепард.
+                                                А какое животное самое медлительное, конечно, из тех, кто все-таки движется, а не стоит на месте?
+                                                Какое море самое глубокое, а какое самое большое? Всё это и многое другое вы узнаете на нашем сайте.
+                                                Только правдивая информация о самых выдающихся реках и морях, горах и океанах, животных и растениях Земли.
+                                            </p>
+
+                                            <!--
+                                                BASE: обязательная таблица размещена именно в index.html.
+                                                Используются table, caption, thead, tbody, tr, th, td
+                                                и требуемые HTML-атрибуты border, cellpadding, cellspacing, bgcolor.
+                                            -->
+
+                                            <table id="largest-states" border="1" cellpadding="4" cellspacing="4" width="96%" align="center">
+                                                <caption><strong>Самые большие (по площади) государства</strong></caption>
+                                                <thead>
+                                                    <tr bgcolor="#ffffff">
+                                                        <th>№</th>
+                                                        <th>Название</th>
+                                                        <th>Площадь, тыс. км<sup>2</sup></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Россия</td>
+                                                        <td>17 075</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Канада</td>
+                                                        <td>9 971</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>Китай</td>
+                                                        <td>9 598</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>США</td>
+                                                        <td>9 519</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>Бразилия</td>
+                                                        <td>8 547</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <p align="right"><a href="#top">ВВЕРХ</a></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!--
+            ИЗМЕНЕНО: подвал сделан на зелёном фоне и повторяет пользовательский образец.
+        -->
+        <tr>
+            <td height="46" align="center" valign="middle">
+                © Все права защищены. В.В. Фуфаев, 2023
+                <br>
+                <a href="mailto:bsu.intertech@gmail.com">Написать Администратору сайта</a>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>

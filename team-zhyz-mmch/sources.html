@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Удивительная планета — Информационные источники</title>
+</head>
+
+<body id="top" bgcolor="#ffffff" text="#000000" link="#0000ee" vlink="#551a8b">
+
+    <!--
+        ИЗМЕНЕНО: общий каркас полностью перестроен под дизайн-образец.
+        Используется только HTML: фиксированная таблица 800 px, HTML-атрибуты и вложенные таблицы.
+        CSS, style и таблицы стилей не используются.
+    -->
+    <table width="800" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#b8dc7c">
+
+        <!--
+            ИЗМЕНЕНО: для баннера используется оригинальный Title.png на зелёном фоне ячейки.
+            Причина: PNG сохраняет прозрачные участки изображения; зелёный фон просвечивает через них,
+            поэтому между баннером и меню не появляется белая полоса.
+        -->
+        <tr>
+            <td bgcolor="#b8dc7c">
+                <img
+                    src="../Images/Title.png"
+                    alt="Удивительная планета"
+                    width="800"
+                    height="222">
+            </td>
+        </tr>
+
+        <!--
+            ИЗМЕНЕНО: высота баннера установлена 222 px, а строки меню - 28 px.
+            Суммарная высота шапки составляет 250 px.
+            Причина: на дизайн-образце текст навигации имеет заметные
+            и практически симметричные отступы сверху и снизу,
+            при этом основная область начинается почти на прежнем уровне.
+            Ширина области меню остаётся 730 px.
+        -->
+        <tr>
+            <td height="28" valign="middle">
+                <table width="730" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <tr>
+                        <td>
+                            <a href="index.html">Главная</a>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="geography.html">География</a>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="animals.html">Животные</a>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="plants.html">Растения</a>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        Информационные источники
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <!--
+                    ИЗМЕНЕНО: основная область оставлена шириной 720 px:
+                    120 px голубая колонка + 600 px белая область.
+                    Вертикальные интервалы боковых изображений рассчитаны как
+                    26 + 100 + 20 + 100 + 20 + 100 + 30 = 396 px.
+                    Причина: так расположение изображений точнее совпадает с образцом.
+                -->
+                <table width="720" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <tr>
+                        <td width="120" height="396" valign="top" bgcolor="#acc2d0">
+                            <table width="120" border="0" cellpadding="0" cellspacing="0">
+                                <tr><td height="26">&nbsp;</td></tr>
+                                <tr>
+                                    <td align="center">
+                                        <img src="../Images/mountain.jpg"
+                                             alt="География"
+                                             width="100"
+                                             height="100">
+                                    </td>
+                                </tr>
+                                <tr><td height="20">&nbsp;</td></tr>
+                                <tr>
+                                    <td align="center">
+                                        <img src="../Images/koala.jpg"
+                                             alt="Животные"
+                                             width="100"
+                                             height="100">
+                                    </td>
+                                </tr>
+                                <tr><td height="20">&nbsp;</td></tr>
+                                <tr>
+                                    <td align="center">
+                                        <img src="../Images/flower.jpg"
+                                             alt="Растения"
+                                             width="100"
+                                             height="100">
+                                    </td>
+                                </tr>
+                                <tr><td height="30">&nbsp;</td></tr>
+                            </table>
+                        </td>
+
+                        <td width="600" height="396" valign="top" bgcolor="#ffffff">
+                            <!--
+                                                ИЗМЕНЕНО: содержательные таблицы имеют ширину 96% и выровнены по центру.
+                                                Причина: на дизайн-образце таблицы имеют поля слева и справа внутри белой области.
+                                                Заголовочные строки оставлены белыми через bgcolor="#ffffff".
+                                            -->
+                                            <table width="100%" border="0" cellpadding="10" cellspacing="0">
+                                <tr>
+                                    <td>
+
+                                            <!--
+                                                ИЗМЕНЕНО: страница источников приведена ближе к исходному образцу.
+                                                Отдельное локальное меню здесь не используется, потому что страница короткая.
+                                                Повторяющиеся caption и строка "№ / Источник" удалены:
+                                                они не требуются заданием и отсутствуют в исходном содержании.
+                                            -->
+                                            <h2 align="center">Информационные источники</h2>
+
+                                            <!--
+                                                PRO: одна таблица содержит обе исходные группы.
+                                                rules="rows" управляет внутренними горизонтальными линиями,
+                                                frame="box" задаёт внешнюю рамку.
+                                            -->
+                                            <table
+                                                border="1"
+                                                cellpadding="4"
+                                                cellspacing="0"
+                                                width="92%"
+                                                align="center"
+                                                rules="rows"
+                                                frame="box">
+
+                                                <tbody>
+                                                    <tr id="information" bgcolor="#ffffff">
+                                                        <!-- colspan="2", потому что заголовок "Информация" объединяет 2 колонки: номер и адрес источника -->
+                                                        <th colspan="2" align="left">Информация</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td width="40" align="center">1</td>
+                                                        <td><a href="http://cooltura.ru">http://cooltura.ru</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center">2</td>
+                                                        <td><a href="http://evolution.powernet.ru">http://evolution.powernet.ru</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center">3</td>
+                                                        <td><a href="http://lilomag.com">http://lilomag.com</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center">4</td>
+                                                        <td><a href="http://only-most.ru">http://only-most.ru</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center">5</td>
+                                                        <td><a href="http://www.priroda.su">http://www.priroda.su</a></td>
+                                                    </tr>
+
+                                                    <tr id="photos" bgcolor="#ffffff">
+                                                        <!-- colspan="2", потому что заголовок "Фотографии" объединяет 2 колонки: номер и адрес источника -->
+                                                        <th colspan="2" align="left">Фотографии</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center">1</td>
+                                                        <td><a href="http://fotki.yandex.ru">http://fotki.yandex.ru</a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                            <p align="right"><a href="#top">ВВЕРХ</a></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!--
+            ИЗМЕНЕНО: подвал сделан на зелёном фоне и повторяет пользовательский образец.
+        -->
+        <tr>
+            <td height="46" align="center" valign="middle">
+                © Все права защищены. В.В. Фуфаев, 2023
+                <br>
+                <a href="mailto:bsu.intertech@gmail.com">Написать Администратору сайта</a>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
